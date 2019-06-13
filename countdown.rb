@@ -5,7 +5,7 @@ def countdown(x)
     puts "#{x} SECOND(S)!"
     x -= 1
   end
-  puts "happy new year!".upcase
+  p "happy new year!".upcase
 end
 
 def countdown_with_sleep(x)
@@ -15,5 +15,5 @@ def countdown_with_sleep(x)
     sleep 1
   end
   
-  print "happy new year!".upcase
+  p "happy new year!".upcase
 end
