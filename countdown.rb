@@ -1,6 +1,6 @@
 def countdown(x)
   while x != 0 
-    p "#{x} SECOND(S)!\n"
+    puts "#{x} SECOND(S)!\n"
     x -= 1
   end
   p "happy new year!".upcase
